@@ -1,0 +1,9 @@
+﻿.ui_tree_icon{ display: inline-block; height: 22px; line-height: 22px; cursor: pointer;}
+.ui_tree_icon .tree_icon_list{ width:10px; height:22px; overflow: hidden; display: inline-block; vertical-align: top; *vertical-align: middle; }
+.ui_tree_icon i{}
+.ui_tree_icon i.fold{ color: #333; font-size: 12px; }
+.ui_tree_icon i.unfold{color: #333; font-size: 12px;}
+
+
+
+.ui_tree_icon,.ui_tree_icon .tree_icon_list,.ui_tree_icon i{ *display: inline; }

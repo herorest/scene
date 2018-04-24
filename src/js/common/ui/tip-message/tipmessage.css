@@ -1,0 +1,4 @@
+﻿.ui_tipmessage{display:none;position:absolute;z-index:9999;top:0; left:0;}
+.ui_tipmessage_list{padding: 10px 10px; text-align: center; margin: 0 auto 5px;display:none;}
+.tipmessage_success{color: #fff; background: #15a06a;}
+.tipmessage_fail{color: #fff; background: #f60;}

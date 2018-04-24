@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>魅景项目编辑器</title>
+<link href="/css/common.css?68f08d048ce2552b43b0" rel="stylesheet"><link href="/css/editor.css?d93971822a5d46afba4f" rel="stylesheet"></head>
+
+<body>
+    <div class="loading" id="loading">
+        <div class="l_rond">
+            <div class="l_r_cycle"></div>
+        </div>
+        <div class="l_text">
+            <p>loading</p>
+        </div>
+    </div>
+    <div id="root">
+
+    </div>
+    <script>
+        var hid = 'MDAwMDAwMDAwMITZdHE';
+        var info = {
+            title:'测试的标题',
+            desc:'看看详细的介绍',
+            vsrc:'http://www.winqee.com/',
+            url:'images/logo_default.jpg'
+        }
+        var evTimeStamp = 0;
+        var immdata = {};
+        var data = {
+            "music":"audio/self.mp3",
+            "value":[
+                [
+                    {
+        				"type": "text",
+        				"html": "那年广场",
+        				"color": "#000",
+        				"font-size": "48px",
+        				"font-style": "normal",
+        				"font-weight": "normal",
+        				"text-decoration": "none",
+        				"background-color": "rgba(0, 0, 0, 0)",
+        				"line-height": "1",
+        				"border-color": "rgb(0, 165, 235)",
+        				"border-radius": "0px",
+        				"border-style": "none",
+        				"border-width": "0px",
+        				"opacity": "1",
+        				"rotate": "0",
+        				"text-align": "center",
+        				"text-decoration": "none",
+        				"text-shadow": "none",
+        				"width": "400px",
+        				"left": "280px",
+        				"top": "50px",
+        				"animation-name": "fadeIn",
+        				"animation-duration": "0.6s",
+        				"animation-delay": "0s",
+        				"position": "absolute",
+        				"z-index": 1
+        			}, {
+        				"type": "text",
+        				"html": "那年元旦，大家都出去看烟花晚会，躲在宿舍里，辗转反侧。因为，只有半年的时光了。想着在学校的每一个快乐回忆，每一个失落瞬间，不由自主的伤感…...",
+        				"color": "#000",
+        				"font-size": "26px",
+        				"font-style": "normal",
+        				"font-weight": "normal",
+        				"text-decoration": "none",
+        				"background-color": "rgba(0, 0, 0, 0)",
+        				"line-height": "1.5",
+        				"border-color": "rgb(0, 165, 235)",
+        				"border-radius": "0px",
+        				"border-style": "none",
+        				"border-width": "0px",
+        				"opacity": "1",
+        				"rotate": "0",
+        				"text-align": "center",
+        				"text-decoration": "none",
+        				"text-shadow": "none",
+        				"width": "550px",
+        				"left": "55px",
+        				"top": "128px",
+        				"animation-name": "fadeIn",
+        				"animation-duration": "0.6s",
+        				"animation-delay": "0.4s",
+        				"position": "absolute",
+        				"z-index": 2
+        			}, {
+        				"type": "img",
+        				"opacity": "1",
+        				"rotate": "0",
+        				"box-shadow": "none",
+        				"border-radius": "40px",
+        				"left": "47px",
+        				"top": "496px",
+        				"width": "540px",
+        				"height": "360px",
+        				"img-src": "/images/pic.jpg",
+        				"img-width": "540px",
+        				"img-top": "-64px",
+        				"img-left": "-55px",
+        				"animation-name": "zoomIn",
+        				"animation-duration": "1.2s",
+        				"animation-delay": "0.8s",
+        				"position": "absolute",
+        				"z-index": 3
+        			}, {
+        				"type": "bg",
+        				"opacity": "1",
+        				"background-color": "rgb(43, 144, 237)",
+        				"img-src": "/images/R8KUNNEXY99XGKY18JZ2.png",
+        				"img-width": "800px",
+        				"img-margin-top": "-20px",
+        				"img-margin-left": "-55px"
+        			}
+                ],[
+                    {
+        				"type": "text",
+        				"html": "旅行的意义",
+        				"color": "#000",
+        				"font-size": "48px",
+        				"font-style": "normal",
+        				"font-weight": "normal",
+        				"text-decoration": "none",
+        				"background-color": "rgba(0, 0, 0, 0)",
+        				"line-height": "1",
+        				"border-color": "rgb(0, 165, 235)",
+        				"border-radius": "0px",
+        				"border-style": "none",
+        				"border-width": "0px",
+        				"opacity": "1",
+        				"rotate": "0",
+        				"text-align": "center",
+        				"text-decoration": "none",
+        				"text-shadow": "none",
+        				"width": "400px",
+        				"left": "120px",
+        				"top": "420px",
+        				"animation-name": "fadeIn",
+        				"animation-duration": "0.6s",
+        				"animation-delay": "0s",
+        				"position": "absolute",
+        				"z-index": 1
+        			}, {
+        				"type": "text",
+        				"html": "一生中至少要有两次冲动，一次为奋不顾身的爱情，一次为说走就走的旅行。去不同的地方，看不同的风景，感悟不同的人生。",
+        				"color": "#000",
+        				"font-size": "26px",
+        				"font-style": "normal",
+        				"font-weight": "normal",
+        				"text-decoration": "none",
+        				"background-color": "rgba(0, 0, 0, 0)",
+        				"line-height": "1.5",
+        				"border-color": "rgb(0, 165, 235)",
+        				"border-radius": "0px",
+        				"border-style": "none",
+        				"border-width": "0px",
+        				"opacity": "1",
+        				"rotate": "0",
+        				"text-align": "center",
+        				"text-decoration": "none",
+        				"text-shadow": "none",
+        				"width": "540px",
+        				"left": "50px",
+        				"top": "480px",
+        				"animation-name": "fadeIn",
+        				"animation-duration": "0.6s",
+        				"animation-delay": "0.4s",
+        				"position": "absolute",
+        				"z-index": 2
+        			}, {
+        				"type": "img",
+        				"opacity": "1",
+        				"rotate": "0",
+        				"box-shadow": "none",
+        				"border-radius": "0px",
+        				"left": "50px",
+        				"top": "30px",
+        				"width": "540px",
+        				"height": "360px",
+        				"img-src": "/images/temple2.jpg",
+        				"img-width": "640px",
+        				"img-top": "0",
+        				"img-left": "0",
+        				"animation-name": "zoomIn",
+        				"animation-duration": "1.2s",
+        				"animation-delay": "0.8s",
+        				"position": "absolute",
+        				"z-index": 3
+        			}, {
+        				"type": "bg",
+        				"opacity": "1",
+        				"background-color": "rgb(43, 144, 237)",
+        				"img-src": "/images/R8KUNNEXY99XGKY18JZ2.png",
+        				"img-width": "800px",
+        				"img-margin-top": "-20px",
+        				"img-margin-left": "-55px"
+        			}
+                ],[
+                    {
+        				"type": "text",
+        				"html": "342342342342342",
+        				"color": "#000",
+        				"font-size": "48px",
+        				"font-style": "normal",
+        				"font-weight": "normal",
+        				"text-decoration": "none",
+        				"background-color": "rgba(0, 0, 0, 0)",
+        				"line-height": "1",
+        				"border-color": "rgb(0, 165, 235)",
+        				"border-radius": "0px",
+        				"border-style": "none",
+        				"border-width": "0px",
+        				"opacity": "1",
+        				"rotate": "0",
+        				"text-align": "center",
+        				"text-decoration": "none",
+        				"text-shadow": "none",
+        				"width": "400px",
+        				"left": "280px",
+        				"top": "50px",
+        				"animation-name": "fadeIn",
+        				"animation-duration": "0.6s",
+        				"animation-delay": "0s",
+        				"position": "absolute",
+        				"z-index": 1
+        			}, {
+        				"type": "bg",
+        				"opacity": "1",
+        				"background-color": "rgb(43, 144, 237)",
+        				"img-src": "/images/R8KUNNEXY99XGKY18JZ2.png",
+        				"img-width": "800px",
+        				"img-margin-top": "-20px",
+        				"img-margin-left": "-55px"
+        			}
+                ]
+            ]
+        };
+    </script>
+<script src="/js/vender.js?77dec6594c093e07edd4"></script><script src="/js/common.js?77dec6594c093e07edd4"></script><script src="/js/editor.js?77dec6594c093e07edd4"></script></body>
+
+</html>

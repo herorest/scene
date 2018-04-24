@@ -1,0 +1,6 @@
+﻿.raphael_box{ border: 1px solid #ccc;background:#eee; word-break:break-all; word-wrap:break-word; cursor: pointer;}
+.raphael_box .tit{ font-weight: bold;padding: 5px;}
+.raphael_box .con{padding: 0 5px 5px 5px;}
+.raphael_box.current{ border: 1px solid #f60; background:#f60; color: #fff;}
+.holder{position: relative;}
+.draw_dialog .dialog_bd{position: relative;}

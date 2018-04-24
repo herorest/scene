@@ -1,0 +1,55 @@
+﻿.ui_dropmeun_dom {
+	text-align: left;
+	font-size: 14px;
+	color: #333;
+	line-height: 32px;
+}
+.ui_dropmenu {
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	display: inline-block;
+	background: #fff;
+	height: 32px;
+	line-height: 32px;
+}
+.dropmenu_text {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 5px;
+}
+.dropmenu_down {
+	display: inline-block;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	cursor: pointer;
+}
+.dropmenu_down span {
+	width: 0;
+	height: 0;
+	display: inline-block;
+	border-width: 6px;
+	margin: 13px 5px 0;/* 13=(32-6)/2 (ui_dropmeun height减border-width)/2 达到垂直居中的目的*/
+	vertical-align: top;
+	border-style: solid dashed dashed dashed;
+	border-color: #666 transparent transparent transparent;
+}
+.dropmenu_list {
+	font-size: 14px;
+	display: none;
+	position: absolute;
+	background: #fff;
+	z-index: 999999;
+	border: 1px solid #ccc;	/*height: 20px;
+		overflow: auto;*/
+}
+.dropmenu_list li {
+	padding: 3px 5px;
+	cursor: pointer;
+}
+.dropmenu_list li:hover {
+	background: #efefef;
+}
+.ui_dropmenu, .dropmenu_text, .dropmenu_down, .dropmenu_down span {
+	*display: inline;
+}

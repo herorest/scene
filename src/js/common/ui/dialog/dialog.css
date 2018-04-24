@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.mzui_dialog {  position: absolute; top: 50%; left: 50%; min-width: 600px; z-index:9996;}
+.mzui_dialog a:hover { text-decoration: none; }
+.mzui_dialog_layer { width: 100%; height: 100%; background: #000; opacity: .6; position: absolute; left: 0; top: 0; z-index:9995;}
+.dialog_hd h3 { font-size: 14px; font-weight: normal; margin:0; height: 32px; line-height: 32px; }
+.dialog_hd .mz_dialog_close { text-decoration: none; color: #000; float: right; text-align: center; font-size: 16px; width: 32px; height: 32px; line-height: 32px; }
+.mz_dialog_close:focus { box-shadow: inset 0 0 50px #f60; border-radius: 0 5px 0 0; color: #fff; }
+.dialog_hd { background: #eee; height: 32px; line-height: 32px; padding-left: 10px; border-radius: 5px 5px 0 0; }
+.dialog_bd { background: #fff; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; }
+.dialog_bd .dialog_con{ padding:30px 10px;}
+.dialog_ft { background: #eee; height: 38px; line-height: 38px;   border-radius: 0 0 5px 5px; padding: 0 10px;}
+.mzui_dialog .dialog_sure, .mzui_dialog .dialog_cancel { margin: 4px; height: 30px; line-height: 30px; border-radius: 3px; display: inline-block; padding: 0 15px; }
+.mzui_dialog button.dialog_sure, .mzui_dialog button.dialog_cancel{padding:10px 16px; line-height: 1.33; height: auto; margin:0; border-radius: 5px;}
+.mzui_dialog .btn_normal{background: #5695cb; color: #fff; text-decoration: none;}

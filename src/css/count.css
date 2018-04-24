@@ -1,0 +1,57 @@
+/* count */
+.count .w_content{width:1200px;background:#fff;padding:15px 30px 40px 30px;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.count .w_project{padding:40px 0 30px 0;color:#3b3b3b;border-bottom:1px dashed #c6c6c6;}
+.count .w_project .p_back{width:110px;padding:8px 0;display:block;background:#2299dd;color:#fff;text-align:center;position:absolute;right:20px;top:15px;border-radius:2px;}
+.count .w_project .p_avata{float:left;width:100px;height:100px;}
+.count .w_project .p_avata img{width:100%;height:100%;}
+.count .w_project .p_info{float:left;padding:0 0 0 30px;}
+.count .w_project .p_info .p_info_title{font-size:16px;line-height:28px;font-weight:bold;}
+.count .w_project .p_info .p_info_time{padding:16px 0 0;color:#c6c6c6;}
+.count .w_project .p_info .p_info_descript{height:36px;line-height:18px;}
+.count .w_project .p_info .p_info_time span{padding:0 30px 0 0;}
+
+.list_content{margin:10px auto 60px;}
+.list_content .cpd_box{padding:0 10px;}
+.list_content .inquire {margin:0 0 20px;}
+.list_content .field{width:140px;}
+.list_content .inq-left table{width:auto;}
+
+.chartbox{height:455px;position:relative;margin:0 0 5px;padding:0 14px;overflow:hidden;}
+.chartbox .chart{width:1160px;height:455px;position:absolute;top:0;left:-5px;}
+.chartbox .tip{line-height:440px;text-align:center;border:1px solid #f2f2f2;}
+.charttrigger {text-align:left;margin:0 0 40px;visibility: hidden;height:0;overflow:hidden;}
+.charttrigger input{margin:0 5px 0 0;}
+.charttrigger label{margin:0 10px 0 0;font-weight:normal;}
+
+/* 过滤 */
+.c_filter{margin:30px 0;padding:0 18px;color:#3b3b3b;}
+.c_filter_line_title{float:left;line-height:32px;padding:0 20px 0 0;margin:0 0 15px;}
+.c_filter_line_time{float:left;}
+.c_filter_line_arrow{width:46px;height:30px;float:left;background:url(../images/way.gif) right center no-repeat;margin:0 20px;}
+.c_filter_line_time_input{width:200px;height:30px;line-height:30px;float:left;border:1px #dbdbdb solid;position:relative;}
+.c_filter_line_time_input span{width:40px;height:30px;float:left;padding:0 0 0 10px;color:#7f7f7f;}
+.c_filter_line_time_input input{width:144px;height:30px;float:left;border:0;background:url(../images/date.jpg) 97% center no-repeat;position:absolute;top:0;left:-1px;padding:0 6px 0 50px;}
+.c_filter_line_date{float:left;line-height:32px;}
+.c_filter_line_date a{margin:0 0 0 30px;}
+.c_filter_line_date a.hot,.filter_line_date a:hover{color:#32a5e7;}
+.c_filter_line_app{float:left;}
+.ui-datepicker{width:194px;}
+
+/* 统计表格 */
+.tablebox{border:1px solid #f2f2f2;margin:0 24px;}
+.tablebox table{width:100%;}
+.tablebox th{background:#f2f2f2;height:60px;text-align:center;font-weight:normal;color:#3b3b3b;}
+.tablebox td{max-width:150px;height:45px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;text-align:center;color:#3b3b3b;}
+.tablebox tr.even{background:#f5fbff;}
+.tablebox tr.even:hover,.tablebox tr:hover{background:#D4F1FD;}
+.tablebox .tip{line-height:100px;text-align:center;}
+.tablebox .hide{display:none;}
+.tablemore {margin:20px 0 0;}
+.tablemore .more{width:148px;height:38px;line-height:38px;display:block;border:1px #1ea4e9 solid;color:#1ea4e9;text-align:center;margin:0 auto;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;transition:all 0.3s ease;}
+.tablemore .more:hover{border:1px #0885c6 solid;color:#0885c6;}
+.tablemore .more.disabled{border-color:#d1d1d1;color:#d1d1d1;}
+
+/* 导出 */
+.exportbox{line-height:42px;text-align: right;padding:0 24px;border-bottom:1px dotted #e6e6e6;margin:0 0 20px;}
+.exportbox .title{font-size:20px;float:left;}
+.exportbox a{color:#1698DB;float:right;}

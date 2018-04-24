@@ -1,0 +1,59 @@
+/*==========通用===========*/
+html {min-width:1250px; color:#111; font-size:13px; background:rgb(237,237,237); color:#B7B7B7;}
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section,select { margin:0; padding:0; font-family:"微软雅黑";}
+.w1000{margin:0 auto;}
+table { border-collapse:collapse; border-spacing:0; }
+textarea{resize:none;}
+/* IE bug fixed: th 不继承 text-align*/
+th { text-align:inherit; }
+/* 去除默认边框 */
+fieldset, img, a img { border:0; }
+img{display:inline; vertical-align:middle;}
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe { display:block; }
+/* 去掉列表前的标识, li 会继承 */
+ol, ul { list-style:none; -webkit-margin:0;}
+i{font-style: normal;}
+caption, th { text-align:left; }
+q:before, q:after { content:''; }
+ins, a { text-decoration:none; }
+a{color:#000;}
+a:hover{text-decoration:none;}
+/* 清理浮动 */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { zoom:1; }
+.clear {clear: both;  }
+.fl { float:left; }
+.fr { float:right; }
+/* 修正checkbox */
+label input{position:relative;top:1px;margin-right:5px;}
+/*修复firefox button内文字不垂直居中*/
+input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {margin:0;padding:0;border:none;}
+/*placeholder颜色*/
+::-webkit-input-placeholder{color:#999;}
+:-moz-placeholder{color:#999;}
+::-moz-placeholder{color:#999;}
+:-ms-input-placeholder{color:#999;}
+/*通用*/
+.center{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+.opacity{opacity:0!important;}
+.bbox{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
+.nodrag{-webkit-user-drag:none;-moz-user-drag:none;-ms-user-drag:none;user-drag:none;}
+.noselect{-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.bg{position:fixed; top:0; left:0; z-index:999; background:#000; opacity:.6; width:100%; height:100%;display:none;}
+.hide{display:none!important;}
+
+/*按钮样式*/
+.btu_green,.btu_grey{color: #32A5E7;border:1px solid #32A5E7;width:100px;height:30px;line-height:30px;text-align:center;font-size:13px;float:left;margin:8px;border-radius:2px;}
+.btu_grey{color: #a0a0a0;border:1px solid #a0a0a0;float:right;}
+.btu_green:hover{background-color: #32A5E7;color:#fff;}
+.btu_grey:hover{background-color: #a0a0a0;color:#fff;}
+.btn_blue,.btn_grey{width:170px;height:50px;line-height:50px;background:#32a5e7;display:block;color:#fff;font-size:50px;text-align:center;}
+.btn_grey{background:gray;}
+.btn_blue:hover{background: #32A5E7;}
+.btn_grey:hover{background: #a0a0a0;}
+
+.nicescroll-rails{left:auto!important;right:0!important;}
+
+/* Css Reset End */

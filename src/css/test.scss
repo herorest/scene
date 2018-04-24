@@ -1,0 +1,51 @@
+$borderDirection:       top !default; 
+$baseFontSize:          12px !default;
+$baseLineHeight:        1.5 !default;
+
+//应用于class和属性
+.border-#{$borderDirection}{
+    border-#{$borderDirection}:1px solid #ccc;
+}
+//应用于复杂的属性值
+body{
+    font:#{$baseFontSize}/#{$baseLineHeight};
+}
+
+//css style
+//-------------------------------
+.border-top{
+  border-top:1px solid #ccc;
+}
+body {
+  font: 12px/1.5;
+}
+
+#top_nav{
+    line-height: 40px;
+    text-transform: capitalize;
+    background-color:#333;
+    li{
+        float:left;
+    }
+    a{
+        display: block;
+        padding: 0 10px;
+        color: #fff;
+        &:hover{
+            color:#ddd;
+        }
+    }
+}
+
+
+//mix
+@mixin opacity($opacity:50) {
+    opacity: $opacity / 100;
+    filter: alpha(opacity=$opacity);
+}
+.opacity{
+    @include opacity; //参数使用默认值
+}
+.opacity-80{
+    @include opacity(80); //传递参数
+}

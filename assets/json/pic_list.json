@@ -1,0 +1,15 @@
+{
+	"status": 1,
+	"data": [
+		{
+			"title":"你好啊1",
+			"src":"images/temple3.jpg"
+		},{
+			"title":"你好啊2",
+			"src":"images/temple4.jpg"
+		},{
+			"title":"你好啊3",
+			"src":"images/temple5.jpg"
+		}
+	]
+}
